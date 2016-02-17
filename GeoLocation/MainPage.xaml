@@ -1,0 +1,68 @@
+﻿
+    <Page
+    x:Class="GeoLocation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GeoLocation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock Text="-> GeoLocation" FontWeight="SemiBold" FontSize="20"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                
+                <TextBlock Text="Latitude" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="1" Text="Longitude" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="2" Text="Altitude" VerticalAlignment="Center" FontSize="18"/>
+
+                <TextBlock Name="latitude" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="longitude" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="altitude" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+
+            </Grid>
+            <Button Name="getLocationBtn" Content="Get Current Location" Click="getLocationBtn_Click"/>
+            <TextBlock Text="-> GeoCode" FontWeight="SemiBold" FontSize="20"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Continent" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="1" Text="Country" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="2" Text="Country Code" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="3" Text="Region" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="4" Text="Town" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Row="5" Text="Street" VerticalAlignment="Center" FontSize="18"/>
+
+                <TextBlock Name="continent" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="countryName" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="countryCode" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="region" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="town" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Name="street" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+
+            </Grid>
+            <Button Name="getAddressBtn" Content="Get Current Address Details" Click="getAddressBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
