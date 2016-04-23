@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLocation", "GeoLocation\GeoLocation.csproj", "{75B13BA1-89B0-4158-AE6B-13EFF54A3B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThumbnailSample", "ThumbnailSample\ThumbnailSample.csproj", "{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,24 @@ Global
 		{75B13BA1-89B0-4158-AE6B-13EFF54A3B0E}.Release|x86.ActiveCfg = Release|x86
 		{75B13BA1-89B0-4158-AE6B-13EFF54A3B0E}.Release|x86.Build.0 = Release|x86
 		{75B13BA1-89B0-4158-AE6B-13EFF54A3B0E}.Release|x86.Deploy.0 = Release|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|ARM.Build.0 = Debug|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x64.ActiveCfg = Debug|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x64.Build.0 = Debug|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x64.Deploy.0 = Debug|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x86.ActiveCfg = Debug|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x86.Build.0 = Debug|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Debug|x86.Deploy.0 = Debug|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|ARM.ActiveCfg = Release|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|ARM.Build.0 = Release|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|ARM.Deploy.0 = Release|ARM
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x64.ActiveCfg = Release|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x64.Build.0 = Release|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x64.Deploy.0 = Release|x64
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x86.ActiveCfg = Release|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x86.Build.0 = Release|x86
+		{50C7A039-B945-4DA2-9732-3B33EEBBAFCC}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
