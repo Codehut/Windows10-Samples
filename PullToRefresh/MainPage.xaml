@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -33,7 +34,10 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <local:PTRBorder x:Name="OuterCustomPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" FontWeight="SemiBold" TextWrapping="Wrap" Grid.Row="0">
+            Pull To Refresh Sample
+        </TextBlock>
+        <local:PTRBorder x:Name="OuterCustomPanel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1">
             <ScrollViewer x:Name="PTRScrollViewer"
                           ViewChanged="ScrollViewer_ViewChanged" VerticalSnapPointsType="MandatorySingle"  VerticalSnapPointsAlignment="Near"
                           VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden" VerticalContentAlignment="Stretch" VerticalAlignment="Stretch">
@@ -80,7 +84,7 @@
                 </local:PTRPanel>
             </ScrollViewer>
         </local:PTRBorder>
-        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Grid.Row="1">
+        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Grid.Row="2">
             Pull down on the list using touch to cause the data in the list to refresh
         </TextBlock>
     </Grid>
