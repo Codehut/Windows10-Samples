@@ -80,7 +80,7 @@
                 </local:PTRPanel>
             </ScrollViewer>
         </local:PTRBorder>
-        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0" Width="300" HorizontalAlignment="Left" TextWrapping="Wrap" Grid.Row="1">
+        <TextBlock VerticalAlignment="Center" Margin="20,0,0,0" HorizontalAlignment="Left" TextWrapping="Wrap" Grid.Row="1">
             Pull down on the list using touch to cause the data in the list to refresh
         </TextBlock>
     </Grid>
